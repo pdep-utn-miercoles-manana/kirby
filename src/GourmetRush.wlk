@@ -4,7 +4,7 @@ class GourmetRush {
 	var participantes = []
 
 	method ganador() {
-		return participantes.max{ participante => participante.puntos(rondas) }
+		return participantes.max{ participante => participante.puntosPor(rondas) }
 	}
 
 }
